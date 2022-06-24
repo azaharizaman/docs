@@ -247,7 +247,7 @@ Route::group(['middleware' => \Path\To\Your\Middleware::class], function() {
 });
 ```
 
-And finally, if you want to assign a group of middleware to just one route you can it like this
+And finally, if you want to assign a group of middleware to just one route you can do it like this
 
 ```php
 Route::middleware([\Path\To\Your\Middleware::class])->group(function() {
